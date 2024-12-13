@@ -4,6 +4,8 @@ import random
 from typing import Tuple, List, Callable
 from enum import Enum
 import math
+import uuid
+
 
 class Shape(Enum):
     CUBE = "cube"
@@ -147,5 +149,6 @@ def create_wallpaper(width: int = 5120, height: int = 1440) -> Image.Image:
 
 if __name__ == "__main__":
     wallpaper = create_wallpaper()
-    wallpaper.save("geometric_wallpaper.png", "PNG")
-    print("Dark geometric wallpaper generated successfully!")
+    filename = f"geometric_wallpaper_{uuid.uuid4()}.png"
+    wallpaper.save(filename, "PNG")
+    print(f"Geometric wallpaper {filename} generated successfully!")
