@@ -25,8 +25,8 @@ You'll need Python 3.6 or higher installed on your system. You can download Pyth
 
 1. Clone this repository or download the script:
 ```bash
-git clone [repository-url]
-# or download the .py file directly
+git clone https://github.com/marcelotournier/ultrawide-wallpaper-gen.git
+# or download the generate.py file directly
 ```
 
 2. Install the required dependency (Pillow):
@@ -38,15 +38,15 @@ pip install Pillow numpy
 
 1. Navigate to the script directory:
 ```bash
-cd [script-directory]
+cd ultrawide-wallpaper-gen
 ```
 
 2. Run the script:
 ```bash
-python wallpaper_generator.py
+python generate.py
 ```
 
-3. The script will generate a new wallpaper and save it as `ultrawide_wallpaper.png` in the same directory.
+3. The script will generate a new wallpaper and save it as `geometric_wallpaper_<random uuid>.png` in the same directory.
 
 ## Customization
 
