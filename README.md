@@ -4,6 +4,8 @@
 
 This repository was generated with Claude Sonnet 3.5 V2 as of 2024-Dec-13th.
 
+---
+
 A Python script that generates visually appealing 5K ultrawide (5120x1440) desktop wallpapers featuring cubic patterns. The wallpapers are designed to be both aesthetically pleasing and functional, with careful consideration for icon readability and eye comfort.
 
 ## Features
